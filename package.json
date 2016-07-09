@@ -1,0 +1,22 @@
+{
+  "name": "intercom-slack-status",
+  "version": "0.0.1",
+  "description": "Post count of open Intercom conversations per admin to Slack.",
+  "scripts": {
+    "start": "app/intercom-status.js",
+    "test": "mocha test && eslint ."
+  },
+  "keywords": [],
+  "author": "Stefan Pettersson",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "2.0.0",
+    "intercom-client": "2.8.0",
+    "slack-node": "0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "3.0.1",
+    "mocha": "2.5.3",
+    "should": "9.0.2"
+  }
+}
